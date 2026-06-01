@@ -17,14 +17,22 @@ A simple Python tool for enumerating SMB services using Nmap.
 ## Usage
 
 ```bash
-python smb_enum.py <target-ip>
+python SMB_Enumerator.py
 ```
+## Sample Output
 
-Example:
+============================================================
+Protocol Enumeration
+============================================================
 
-```bash
-python smb_enum.py 192.168.1.1
-```
+Host script results:
+| smb-protocols:
+|   dialects:
+|     2.0.2
+|     2.1
+|     3.0
+|     3.0.2
+|_    3.1.1
 
 ## Disclaimer
 
