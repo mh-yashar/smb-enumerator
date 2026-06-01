@@ -23,7 +23,7 @@ python smb_enum.py <target-ip>
 Example:
 
 ```bash
-python smb_enum.py 192.168.46.1
+python smb_enum.py 192.168.1.1
 ```
 
 ## Disclaimer
